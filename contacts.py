@@ -71,7 +71,7 @@ class App(Controller):
 
     # Menu that shows up when you start the app
     def menu(self):
-        menu = "1 - Add a Contact, 2 - Show Contacts, 3 - Add a Phone Number, 4 - Delete a Contact, 5 - Delete a Phone Number, 6 - Exit"
+        menu = "\n1 - Add a Contact, 2 - Show Contacts, 3 - Add a Phone Number, 4 - Delete a Contact, 5 - Delete a Phone Number, 6 - Exit"
         while True:
             print(menu)
             prompt = input(">> ")
